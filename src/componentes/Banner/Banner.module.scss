@@ -1,0 +1,23 @@
+@import "../../styles/variaveis";
+
+.banner {
+	width: 88%;
+	img {
+    height: 288px;
+		width: 100%;
+	}
+
+	position: relative;
+
+	h1 {
+		color: $cor-do-texto;
+    font-family: $fonte-bold;
+		font-size: 2.5rem;
+		height: 144px;
+		left: 44px;
+		position: absolute;
+		top: 55px;
+		width: 401px;
+		z-index: 1;
+	}
+}

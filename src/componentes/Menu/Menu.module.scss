@@ -1,0 +1,43 @@
+@import "../../styles/variaveis";
+
+.menu {
+	width: 18%;
+
+	&__lista {
+		display: flex;
+		flex-direction: column;
+		height: 276px;
+		justify-content: space-around;
+		list-style: none;
+		margin: 0;
+		padding-left: 0.5rem;
+	}
+
+	&__item {
+		align-items: center;
+		display: flex;
+		justify-content: flex-start;
+
+		&:first-child {
+			a {
+				color: $roxo;
+				font-family: $fonte-normal;
+				font-weight: 700;
+			}
+		}
+	}
+
+	img {
+		cursor: pointer;
+		height: 25px;
+		margin-right: 0.5rem;
+		width: 25px;
+	}
+
+	a {
+		color: $cor-do-texto;
+		font-family: $fonte-normal;
+		font-size: 1.125rem;
+		text-decoration: none;
+	}
+}
